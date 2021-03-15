@@ -23,3 +23,11 @@ busqueda.addEventListener("paste", () => {
 busqueda.addEventListener("input", (event) => {
   console.log(event.target.value);
 });
+
+//validacion facil para que un input no este vacio:
+
+busqueda.addEventListener("input", (event) => {
+  if (event.target.value == "") {
+    console.log("Esta vacio");
+  }
+});
