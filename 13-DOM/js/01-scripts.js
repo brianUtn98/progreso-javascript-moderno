@@ -6,4 +6,4 @@ elemento = document.body;
 elemento = document.domain;
 elemento = document.forms;
 elemento = document.images;
-console.log(elemento)
+console.log(elemento);

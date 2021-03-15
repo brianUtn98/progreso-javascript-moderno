@@ -1,4 +1,3 @@
-const numeros2 = [1,2,3]
+const numeros2 = [1, 2, 3];
 
-console.table(numeros2)
-
+console.table(numeros2);

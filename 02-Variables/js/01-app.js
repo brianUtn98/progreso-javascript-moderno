@@ -1,2 +1,1 @@
-var producto = "Monitor de 24 pulgadas"
-
+var producto = "Monitor de 24 pulgadas";

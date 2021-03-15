@@ -2,9 +2,9 @@
 
 // Object literal
 const brian = {
-    nombre: "Brian",
-    edad: 22,
-    materiasAprobadas: 15
-}
+  nombre: "Brian",
+  edad: 22,
+  materiasAprobadas: 15,
+};
 
-console.log(brian)
+console.log(brian);

@@ -1,11 +1,11 @@
-let validado = true
+let validado = true;
 
-if(validado){
-    console.log('Validado')
+if (validado) {
+  console.log("Validado");
 } else {
-    console.log('No validado')
+  console.log("No validado");
 }
 
-validado = false
+validado = false;
 
-console.log(validado ? 'Validado' : 'No validado')
+console.log(validado ? "Validado" : "No validado");

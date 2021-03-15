@@ -1,3 +1,3 @@
-const formulario = document.getElementById('formulario')
+const formulario = document.getElementById("formulario");
 
-console.log(formulario)
+console.log(formulario);

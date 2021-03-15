@@ -1,3 +1,3 @@
-const numero1 = 30
+const numero1 = 30;
 
-console.log(numero1)
+console.log(numero1);

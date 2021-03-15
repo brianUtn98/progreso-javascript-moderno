@@ -1,22 +1,22 @@
 const alumno7 = {
-    nombre: "Brian",
-    edad: 22,
-    materiasAprobadas: 15
-}
+  nombre: "Brian",
+  edad: 22,
+  materiasAprobadas: 15,
+};
 
 const unasMedidas = {
-    peso: '75kg',
-    altura: '171cm'
-}
+  peso: "75kg",
+  altura: "171cm",
+};
 
-console.log(alumno7)
-console.log(unasMedidas)
+console.log(alumno7);
+console.log(unasMedidas);
 
-const resultado = Object.assign(alumno7,unasMedidas)
+const resultado = Object.assign(alumno7, unasMedidas);
 
 //Spread o rest operator.
 
-const resultado2 = {...alumno7,...unasMedidas}
+const resultado2 = { ...alumno7, ...unasMedidas };
 
-console.log(resultado)
-console.log(resultado2)
+console.log(resultado);
+console.log(resultado2);

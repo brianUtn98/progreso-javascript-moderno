@@ -1,1 +1,1 @@
-let producto = 'Tablet'
+let producto = "Tablet";

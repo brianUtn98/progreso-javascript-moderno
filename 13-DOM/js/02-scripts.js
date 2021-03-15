@@ -1,17 +1,17 @@
-const header = document.getElementsByClassName('header');
+const header = document.getElementsByClassName("header");
 
-console.log(header)
+console.log(header);
 
-const hero = document.getElementsByClassName('hero');
+const hero = document.getElementsByClassName("hero");
 
-console.log(hero)
+console.log(hero);
 
 //Si las clases se repiten
 
-const contenedores = document.getElementsByClassName('contenedor')
+const contenedores = document.getElementsByClassName("contenedor");
 
-console.log(contenedores)
+console.log(contenedores);
 
-const noExiste = document.getElementsByClassName('asdasda')
+const noExiste = document.getElementsByClassName("asdasda");
 
-console.log(noExiste)
+console.log(noExiste);
