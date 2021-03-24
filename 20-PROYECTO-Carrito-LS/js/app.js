@@ -82,7 +82,8 @@ function carritoHTML() {
     //Limpiar html
     limpiarHTML();
 
-    articulosCarrito.forEach((curso) => {
+    articulosCarrito.forEach(
+        (curso) => {
         const { imagen, nombre, precio, cantidad, idCurso } = curso;
         const row = document.createElement("tr");
         row.innerHTML = `
