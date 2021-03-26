@@ -4,7 +4,7 @@
 import express from "express";
 import router from "./routes/index.js";
 import React from "react";
-import db from "./config/db.js"
+import db from "./config/db.js";
 const app = express();
 
 //Conectar la base de datos
@@ -31,6 +31,10 @@ app.use((request, response, next) => {
 
   return next();
 });
+
+//Agregar body parser para poder leer los datos del form
+
+app.use(express.urlencoded({ extended: true }));
 
 //Definir carpeta publica
 app.use(express.static("public"));
