@@ -1,25 +1,17 @@
 import express from "express";
+import { paginaInicio,paginaNosotros,paginaTestimoniales,paginaViajes,paginaDetalleViaje } from "../controllers/paginasController.js"
 
 const router = express.Router();
 
-router.get("/", (request, response) => {
-  response.render("inicio");
-});
+router.get("/",paginaInicio);
 
-router.get("/nosotros", (request, response) => {
-  response.render("nosotros");
-});
+router.get("/nosotros", paginaNosotros);
 
-router.get("/contacto", (request, response) => {
-  response.send("Contacto");
-});
+router.get("/testimoniales", paginaTestimoniales);
 
-router.get("/testimoniales",(request,response) => {
-  response.send("Testimoniales")
-})
+router.get("/viajes", paginaViajes);
 
-router.get("/viajes",(request,response) => {
-  response.send("Viajes");
-})
+//Me gusta utilizar la convención :id, pero como los viajes se identifican por slug uso :slug
+router.get("/viajes/:id",paginaDetalleViaje)
 
 export default router;

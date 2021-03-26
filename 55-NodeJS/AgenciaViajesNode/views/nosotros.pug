@@ -1,6 +1,35 @@
 extends ./layout/index
 
 block contenido
-    p Nosotros 
+    main.container.mt-5 
+        div.row
+            div.col-md-5
+                img(src="img/nosotros.jpg", alt="",class="img-fluid")
+            div.col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque, elit pharetra faucibus egestas, sem justo malesuada lectus, eget ultrices turpis massa eget lacus. Aenean tincidunt nunc ac sem sodales, a luctus diam tempus. Vestibulum laoreet gravida elit, et pulvinar ante dictum vitae. Ut eu ipsum risus. Donec interdum quam vitae nisi dignissim consectetur sit amet non nisi. Aenean tincidunt convallis nunc at dictum. Integer dapibus, nisi ac tincidunt ornare, lectus neque posuere ligula, ut feugiat lorem urna a magna. Praesent at vulputate mi. Aenean tincidunt nibh id elit maximus, eu interdum dolor varius. Proin sit amet turpis in urna luctus porta suscipit non turpis. Nam lobortis risus quis malesuada facilisis. Praesent eu euismod urna.
 
-    img(src="img/cupon.jpg", alt="")
+                p Vivamus eu pulvinar erat. Donec convallis vulputate odio id placerat. Suspendisse iaculis nisl est, eu viverra neque rutrum vel. Nulla quis orci tincidunt, ultricies sem a, ornare nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi erat quam, eleifend sed suscipit vitae, pharetra eget purus. Mauris dapibus nisi ut magna ultrices, quis condimentum odio fringilla. Fusce pulvinar ultricies diam, nec mattis est vestibulum at. Aliquam mi nisi, commodo sed tempus sit amet, eleifend non est. 
+
+                p Pellentesque lacus lorem, elementum ac lacus quis, sollicitudin hendrerit dui. Proin commodo commodo turpis, pellentesque posuere purus malesuada et. Ut eu ultrices arcu. Ut viverra convallis ligula, in facilisis nulla fermentum ornare. Praesent congue nunc facilisis dolor dapibus tincidunt. Duis mauris arcu, faucibus sed vestibulum sed, condimentum nec felis. Nullam bibendum pulvinar nisi, in porta justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vehicula tellus eu rutrum congue. Ut tempor dolor at nunc vulputate vehicula id at erat.
+
+    div.listado-iconos
+        div.container.mt-5.py-5.text-center
+            div.row
+                div.col-md-4
+                    img(src="img/icono_seguridad.svg", alt="",class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vehicula tellus eu rutrum congue. Ut tempor dolor at nunc vulputate vehicula id at erat.
+
+                div.col-md-4
+                    img(src="img/icono_destinos.svg", alt="",class="img-fluid mb-4")
+                    h2.mb-4 Mejores destinos
+                    p Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vehicula tellus eu rutrum congue. Ut tempor dolor at nunc vulputate vehicula id at erat.
+
+                div.col-md-4
+                    img(src="img/icono_precios.svg", alt="",class="img-fluid mb-4")
+                    h2.mb-4 Mejores precios
+                    p Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vehicula tellus eu rutrum congue. Ut tempor dolor at nunc vulputate vehicula id at erat.
+
+
+
