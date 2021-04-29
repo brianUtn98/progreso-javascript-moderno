@@ -1,8 +1,12 @@
 import Sequelize from "sequelize";
+//No funciona con require ya que del lado del cliente no existe require.
+import dotenv from "dotenv";
 
-const db = new Sequelize("agencia_de_viajes", "root", "admin", {
-  host: "127.0.0.1",
-  port: "3306",
+dotenv.config({path: "variables.env"});
+
+const db = new Sequelize(process.env.BD_NOMBRE,process.env.BD_USER,process.env.BD_PASS, {
+  host: process.env.BD_HOST,
+  port: process.env.BD_PORT,
   dialect: "mysql",
   define: {
     timestamps: false,
